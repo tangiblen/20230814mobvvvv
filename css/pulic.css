@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'W1';
+    src: url("../fonts/字体圈伟君黑-W1.ttf");
+}
+
+@font-face {
+    font-family: 'W2';
+    src: url("../fonts/字体圈伟君黑-W2.ttf");
+}
+
+@font-face {
+    font-family: 'W3';
+    src: url("../fonts/字体圈伟君黑-W3.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 100%;
+    height: 2000px;
+    background: #03192D;
+}
+
+.headnav { 
+    width: 100%;
+    height: 6vh;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255,0)0%,rgba(255, 255, 255, 0.2));
+    display: flex;
+    justify-content: space-between;
+}
+
+.mheadnav {
+    width: 20%;
+}
+
+.mlogo {
+    width: 100%;
+    height: 100%;
+}
+
+/* 首页 */
+
+.partone {
+    height: 720px;
+    background-image: url(../img/indexbg2.png);
+    background-size: 90% 68%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+
+.partonetitle {
+    font-size: 20px;
+    color: #00FFFF;
+    font-family: w3;
+    padding: 170px 0 15px 30px;
+}
+
+.partonedes {
+    font-size: 15px;
+    color: #ffffff;
+    font-family: w1;
+    padding-left: 30px;
+}
