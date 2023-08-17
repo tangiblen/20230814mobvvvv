@@ -4,6 +4,7 @@ $("#header").append(
         "<div class='mheadtab'><img src='./img/tab.png' alt='' srcset='' class='mlogo tabimg2'></div>"
 );
 
+// footer
 $("#footer").append(
         "<div class='footertrans'>"+
                     "<span class='dotblue ju' style='display: inline-block; padding-top: 10px;'>联系我们</span><br />"+

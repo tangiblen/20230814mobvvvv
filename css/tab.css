@@ -1,0 +1,27 @@
+.tabbg {
+    background-image: url(../img/indexbg2.png);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    /* opacity: .2; */
+}
+
+.tabqiehuan {
+    margin: 3.7333vw auto;
+}
+
+.tabli {
+    font-size: 4.266667vw;
+    font-family: w2;
+    color: #ffffff;
+}
+
+.tabcolor {
+    width: 86.6667vw;
+    height: 153.13864vw;
+    background: linear-gradient(to left, rgba(255, 255, 255,0.06)20%,rgba(255, 255, 255, 0.2));
+    /* border: 1px solid rgba(255, 255, 255,.3); */
+    border-radius: 4vw;
+    margin: auto;
+}

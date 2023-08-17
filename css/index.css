@@ -1,0 +1,140 @@
+/* 首页 */
+
+.partone {
+    height: 100vh;
+    /* min-height: 181.333vw; */
+    background-image: url(../img/indexbg2.png);
+    background-size: 90% 68%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+
+@media screen and (min-width: 500px) {
+    .partone {
+        min-height: 181.333vw;
+    }
+}
+
+.partonetitle {
+    font-size: 5.3333vw;
+    color: #00FFFF;
+    font-family: w3;
+    padding: 40.3333vw 0 4vw 8vw;
+}
+
+.partonedes {
+    font-size: 4.2743vw;
+    color: #ffffff;
+    font-family: w1;
+    padding-left: 8vw;
+}
+
+.ptspan {
+    width: 47.2vw;
+    height: 12.2667vw;
+    display: block;
+    border-radius: 8vw;
+    font-size: 5.3333vw;
+    color: #00FFFF;
+    font-family: w3;
+    border: 1px solid rgb(255,255,255,.3);
+    text-align: center;
+    position: relative;
+    margin: 2.667vw auto 8vw;
+    line-height: 8.8vw;
+    background: linear-gradient(to left, rgba(255, 255, 255,0)0%,rgba(255, 255, 255, 0.2));
+}
+
+.ptspan::after {
+    content: '';
+    display: block;
+    width: 21.333vw;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 10.4vw;
+    left: 12.6667vw;
+}
+
+.ptp {
+    font-size: 4.18667vw;
+    color: #ffffff;
+    line-height: 7.2vw;
+    padding: 0 8vw 9.6vw;
+    text-indent: 8.37334vw;
+}
+
+.ptpbg {
+    background-image: url(../img/indexbg1.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.ptpli {
+    width: 78vw;
+    height: 10.9vw;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8vw;
+    font-family: w1;
+    font-size: 3.7333vw;
+    color: #ffffff;
+    display: flex;
+    line-height: 10.9vw;
+    background: linear-gradient(to left, rgba(255, 255, 255,0)0%,rgba(255, 255, 255, 0.2));
+    margin: 0 auto 4vw;
+}
+
+.circle {
+    width: 10.9333vw;
+    height: 10.9vw;
+    border-radius: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ptplione {
+    background-image: url(../img/icon1.png);
+}
+
+.ptplitwo {
+    background-image: url(../img/icon2.png);
+}
+
+.ptplithree {
+    background-image: url(../img/icon3.png);
+}
+
+.ptplifour {
+    background-image: url(../img/icon4.png);
+}
+
+.ptplifive {
+    background-image: url(../img/icon5.png);
+}
+
+.dotblue {
+    color: #00FFFF;
+    margin-left: 1.86667vw;
+}
+
+.ptspans {
+    display: block;
+    font-size: 3.2vw;
+    width: 27.4667vw;
+    height: 5.333vw;
+    border-radius: 8vw;
+    border: 1px solid #00FFFF;
+    color: #ffffff;
+    margin: 0 auto 8vw;
+    text-align: center;
+    line-height: 5.333vw;
+}
+
+.ptplogoimg {
+    width: 19.4vw;
+    height: 100%;
+}
