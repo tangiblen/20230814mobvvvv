@@ -48,3 +48,24 @@ h1 {
 .partthree {
     margin: auto;
 }
+
+input {
+    background: transparent;
+}
+
+.jfrb,.yzml,input {
+    background: linear-gradient(to left, rgba(255, 255, 255,0)0%,rgba(255, 255, 255, 0.2));
+    border: 1px solid rgba(255, 255, 255,.3);
+    border-radius: 1vw;
+}
+
+.jfrb {
+    width: 63.92vw;
+    height: 7.4133vw;
+}
+
+.jfrb span,.yzml span {
+    font-size: 4vw;
+    font-family: W1;
+    color: #ffffff;
+}

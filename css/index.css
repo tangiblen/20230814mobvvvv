@@ -40,7 +40,7 @@
     font-family: w3;
     border: 1px solid rgb(255,255,255,.3);
     text-align: center;
-    position: relative;
+    position: initial;
     margin: 2.667vw auto 8vw;
     line-height: 8.8vw;
     background: linear-gradient(to left, rgba(255, 255, 255,0)0%,rgba(255, 255, 255, 0.2));
@@ -51,8 +51,9 @@
     display: block;
     width: 21.333vw;
     height: 1px;
+    margin: auto;
     background-color: #ffffff;
-    position: absolute;
+    position: inherit;
     top: 10.4vw;
     left: 12.6667vw;
 }

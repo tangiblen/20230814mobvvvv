@@ -61,7 +61,7 @@ h2 {
     text-indent: 8.53333vw; 
     font-size:4.26667vw; 
     line-height: 7.2vw;
-    width: 82.1333vw;
+    width: 83.25vw;
 }
 
 .circleli {
@@ -109,7 +109,29 @@ h2 {
 .ptli {
     width: 37.8666vw;
     height: 33.6vw;
-    border: 1px solid #00FFFF;
+    /* border: 1px solid #00FFFF; */
+    border-radius: 2vw;
+}
+
+.ptlileft {
+    background: linear-gradient(to right, rgba(0, 255, 255,1)0%,rgba(0, 255, 255, 0));
+}
+
+.ptliright {
+    background: linear-gradient(to left, rgba(0, 255, 255,1)0%,rgba(0, 255, 255, 0));
+}
+
+.mlogoleft {
+    padding: 0.5vw 0 0 0.8vw;
+    width: 98%;
+    height: 97%;
+    border-radius: 2vw;
+}
+
+.mlogoright {
+    padding: 0.5vw 0.4vw 0 0;
+    width: 98%;
+    height: 97%;
     border-radius: 2vw;
 }
 
@@ -155,4 +177,43 @@ h2 {
 
 .travelbg {
     background-image: url(../img/0816文旅项目/文旅1.jpg);
+}
+
+.citybanner,.buiniessbanner,.brandbanner,.aibanner,.travelbanner { 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.citywhite {
+    display: block;
+    background-color: #ffffff;
+    height: 10.0498vw;
+    width: 18.3733vw;
+    border-radius: 2vw;
+    opacity: 0.6;
+}
+
+.pthreelia {
+    position: relative;
+    top: -9.6vw;
+}
+
+.citybanner{
+    background-image: url(../img/citybanner.png);
+}
+
+.buiniessbanner {
+    background-image: url(../img/aibanner.png);
+}
+
+.brandbanner {
+    background-image: url(../img/travelbanner.png);
+}
+
+.aibanner {
+    background-image: url(../img/aibanner.png);
+}
+
+.travelbanner {
+    background-image: url(../img/travelbanner.png);
 }
