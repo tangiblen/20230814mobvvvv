@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./css/pulic.css">
     <link rel="stylesheet" href="./css/contact.css">
 </head>
+    <style>
+       
+    </style>
 <body>
     <div class="content">
         <!-- header  -->
@@ -15,46 +18,52 @@
 
         <!-- body  -->
         <div class="contactbg">
-            <div class="smegma" style="    background: rgb(0, 0, 0,.5);">
+            <div class="smegma" style="background: rgb(0, 0, 0,.5);">
                 <h1 class="citytitle"> <span class="bluecolor">联系我们</span> </h1> 
             </div>
         </div>
 
-        <div class="5aqqZ">
+        <div class="aqqz">
             <div class="contacttrancolor parttwo">
-                <h1>服务内容</h1>
+                <h1>在线留言</h1>
                 <div class="jfr">
                     <div class="jfrb">
-                      <span>* 姓名:</span>
+                      <span><span style="color: #00FFFF;padding: 0;">*</span> 姓名:</span>
                       <input id="form_name" type="text">
                     </div>
                     <div class="clear"></div>
                     <div class="jfrb">
-                      <span>*  手机:</span>
+                      <span><span style="color: #00FFFF;padding: 0;">*</span> 手机:</span>
                       <input id="form_mobile" type="text">
                     </div>
                     <div class="clear"></div>
                     <div class="jfrb">
-                      <span>邮箱:</span>
+                      <span>&nbsp;&nbsp; 邮箱:</span>
                       <input id="form_mail" type="text">
                     </div>
                     <div class="clear"></div>
                     <div class="jfrb">
-                      <span>公司:</span>
+                      <span>&nbsp;&nbsp; 公司:</span>
                       <input id="form_com" type="text">
                     </div>
                     <div class="clear"></div>
-                    <div class="jfrb">
-                      <span>留言:</span>
-                      <input id="form_content" type="text">
+                    <div class="jfrb form_content">
+                      <span>&nbsp;&nbsp; 留言:</span>
+                      <!-- <input id="form_content" type="text"> -->
+                      <textarea name="long-text-input"  id="form_content" rows="5" cols="40"></textarea>
                     </div>
-          
-                    <div class="yzm">
+                    <div class="clear"></div>
+                    <div class="yzm" style="display: flex;">
                       <div class="yzml">
-                        <span>验证码:</span>
-                        <input id="form_code" type="text">
+                        <span>&nbsp; 验证码:</span>
+                        <!-- <input id="form_code" type="text"> -->
+                        <input type="text" class="topAlign" id="verify" name="verify" required>
                       </div>
-                      <img id="yzm" src="https://api.it120.cc/shuzijihe/verification/pic/get?key=0.7950746228354351" onclick="yzmchange()">
+
+                      <canvas width="100" height="40" id="verifyCanvas"></canvas>
+                      <img id="code_img">
+                      <!-- <img id="yzm" src="https://api.it120.cc/shuzijihe/verification/pic/get?key=0.7950746228354351" onclick="yzmchange()"> -->
+                      
                       <div class="bt" onclick="submit()">提交</div>
                     </div>
           

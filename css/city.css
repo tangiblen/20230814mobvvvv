@@ -1,5 +1,5 @@
 .partone {
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,13 +15,19 @@
     width: 100%;
     height: 100%;
     background: rgb(0, 0, 0,.65);
+    display: flex;
+    flex-direction: column;
 }
 
 .citytitle {
     font-family: w3;
     font-size: 5.333vw;
     color: #ffffff;
-    padding: 26.8vw 0 36.1333vw;
+    /* padding: 26.8vw 0 36.1333vw; */
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 .trancolor {
@@ -31,6 +37,8 @@
     /* border: 1px solid rgba(255, 255, 255,.3); */
     border-radius: 4vw;
     margin: auto;
+    flex: 1;
+    margin-bottom: 2vw;
 }
 
 h1 {
@@ -52,9 +60,9 @@ h2 {
     font-family: w1;
     font-size: 4vw;
     color: #ffffff;
-    padding: 6vw 0 6.8vw 2.6vw;
+    padding: 6vw 1vw 6.8vw 1.6vw;
     display: block;
-    width: 80vw;
+    width: 84vw;
 }
 
 .ptspanone {
