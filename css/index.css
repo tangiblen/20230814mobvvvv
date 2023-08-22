@@ -90,7 +90,7 @@
     line-height: 10.9vw;
     background: linear-gradient(to left, rgba(255, 255, 255,0)0%,rgba(255, 255, 255, 0.2));
     margin: 0 auto 4vw;
-    border-left: 2px solid rgba(255, 255, 255, 0.3);
+    /* border-left: 2px solid rgba(255, 255, 255, 0.3); */
 }
 
 .circle {

@@ -67,7 +67,34 @@ $(document).ready(function () {
     console.log(currentURL)
     if (currentURL.indexOf('index.html') != -1){
       console.log(3132432)
-      $(".tabqiehuan").children(":first").children(":first").eq(0).html()
+      $(".tabli a").eq(0).addClass("bluecolor")
+    }
+    if (currentURL.indexOf('service') != -1){
+      console.log(3132432)
+      $(".tabli a").eq(1).addClass("bluecolor")
+      if (currentURL.indexOf('service_city.html') != -1) {
+        $(".ptpli a").eq(0).addClass("bluecolor")
+      }
+      if (currentURL.indexOf('service_business.html') != -1) {
+        $(".ptpli a").eq(1).addClass("bluecolor")
+      }
+      if (currentURL.indexOf('service_cultural.html') != -1) {
+        $(".ptpli a").eq(2).addClass("bluecolor")
+      }
+      if (currentURL.indexOf('service_brand.html') != -1) {
+        $(".ptpli a").eq(3).addClass("bluecolor")
+      }
+      if (currentURL.indexOf('service_big.html') != -1) {
+        $(".ptpli a").eq(4).addClass("bluecolor")
+      }
+    }
+    if (currentURL.indexOf('customer.html') != -1){
+      console.log(3132432)
+      $(".tabli a").eq(2).addClass("bluecolor")
+    }
+    if (currentURL.indexOf('contact.html') != -1){
+      console.log(3132432)
+      $(".tabli a").eq(3).addClass("bluecolor")
     }
 })
 
