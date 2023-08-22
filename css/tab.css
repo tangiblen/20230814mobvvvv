@@ -1,5 +1,4 @@
 .tabbg,.tabbg::before {
-    /* background-image: url(../img/indexbg2.png); */
     height: 100vh;
     background-size: contain;
     background-repeat: no-repeat;

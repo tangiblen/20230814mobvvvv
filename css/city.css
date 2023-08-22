@@ -23,7 +23,6 @@
     font-family: w3;
     font-size: 5.333vw;
     color: #ffffff;
-    /* padding: 26.8vw 0 36.1333vw; */
     display: flex;
     flex: 1;
     justify-content: center;
@@ -35,7 +34,6 @@
     width: 86.6667vw;
     height: auto;
     background: linear-gradient(to left, rgba(255, 255, 255,0.1)0%,rgba(255, 255, 255, 0.2));
-    /* border: 1px solid rgba(255, 255, 255,.3); */
     border-radius: 4vw;
     margin: auto;
     flex: 1;
@@ -65,7 +63,6 @@ h2 {
     color: #ffffff;
     padding: 6vw 2vw 6.8vw;
     display: block;
-    /* width: 84vw; */
     text-align: justify;
     word-break: normal;
 }
@@ -74,7 +71,6 @@ h2 {
     text-indent: 8.53333vw; 
     font-size:4.26667vw; 
     line-height: 7.2vw;
-    /* width: 83.25vw; */
 }
 
 .circleli {
@@ -110,14 +106,6 @@ h2 {
     height: auto;
 }
 
-/* .ptpart01 {
-    height: 138.1333vw;
-}
-
-.ptpart02 {
-    height: 153.066vw;
-} */
-
 .ptpart03 {
     height: 30.1333vw;
 }
@@ -129,7 +117,6 @@ h2 {
 .ptli {
     width: 37.8666vw;
     height: 33.6vw;
-    /* border: 1px solid #00FFFF; */
     border-radius: 2vw;
 }
 
@@ -222,11 +209,11 @@ h2 {
 }
 
 .buiniessbanner {
-    background-image: url(../img/aibanner.png);
+    background-image: url(../img/buniessbanner.jpg);
 }
 
 .brandbanner {
-    background-image: url(../img/travelbanner.png);
+    background-image: url(../img/brandbanner.jpg);
 }
 
 .aibanner {

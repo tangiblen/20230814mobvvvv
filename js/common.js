@@ -32,7 +32,8 @@ $("#footer").append(
 
   // 获取屏幕的高度
   var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight; 
-  $(".partone").css("height",windowHeight)
+  var navHeight = $('.mheadnav').height() 
+  $(".partone").css("height",windowHeight - navHeight)
   console.log(windowHeight,111)
 
 
@@ -58,7 +59,15 @@ $(document).ready(function () {
     window.location.href="./service_big.html"
   });
 
+// tab页高亮
   var urlhost = window.parent.document.referrer;
- alert(urlhost)
+    sessionStorage.setItem("last_url",urlhost) //存储名字为last_url值为urlhost的变量
+    console.log(sessionStorage, 1111)
+    var currentURL = sessionStorage.getItem("last_url")
+    console.log(currentURL)
+    if (currentURL.indexOf('index.html') != -1){
+      console.log(3132432)
+      $(".tabqiehuan").children(":first").children(":first").eq(0).html()
+    }
 })
 
