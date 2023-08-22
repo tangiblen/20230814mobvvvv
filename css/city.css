@@ -1,5 +1,5 @@
 .partone {
-    /* height: 100vh; */
+    height: 100vh;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,6 +28,7 @@
     flex: 1;
     justify-content: center;
     align-items: center;
+    font-weight: 300;
 }
 
 .trancolor {
@@ -47,6 +48,7 @@ h1 {
     color: #ffffff;
     padding: 3.8667vw 0 6.4vw;
     text-align: center;
+    font-weight: 200;
 }
 
 h2 {
@@ -54,22 +56,25 @@ h2 {
     font-size: 4vw;
     color: #ffffff;
     text-align: center;
+    font-weight: 300;
 }
 
 .desc {
     font-family: w1;
     font-size: 4vw;
     color: #ffffff;
-    padding: 6vw 1vw 6.8vw 1.6vw;
+    padding: 6vw 2vw 6.8vw;
     display: block;
-    width: 84vw;
+    /* width: 84vw; */
+    text-align: justify;
+    word-break: normal;
 }
 
 .ptspanone {
     text-indent: 8.53333vw; 
     font-size:4.26667vw; 
     line-height: 7.2vw;
-    width: 83.25vw;
+    /* width: 83.25vw; */
 }
 
 .circleli {
@@ -83,7 +88,10 @@ h2 {
 }
 
 .circlep {
-    margin-top: 4vw;
+    font-family: W3;
+    margin: 4vw auto 1.12vw;
+    font-size: 4.95733vw;
+    font-weight: 300;
 }
 
 .circlespan {
@@ -112,6 +120,10 @@ h2 {
 
 .ptpart03 {
     height: 30.1333vw;
+}
+
+.customerdz {
+    padding-top: 6vw;
 }
 
 .ptli {
@@ -173,7 +185,6 @@ h2 {
 
 .custombg {
     background-image: url(../img/0816合作客户/合作客户2.jpg);
-    height: 93vh;
 }
 
 .customh1 {
