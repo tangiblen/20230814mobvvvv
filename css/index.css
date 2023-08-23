@@ -31,20 +31,25 @@
     line-height: 5.6vw;
 }
 
-.ptspan {
+.indexone {
     width: 47.2vw;
+    border-radius: 8vw;
+    margin: 2.667vw auto 8vw;
+    background: linear-gradient(to left, rgba(255, 255, 255,0)0%,rgba(255, 255, 255, 0.2));
+}
+
+.ptspan {
+    width: 100%;
     height: 12.2667vw;
     display: block;
-    border-radius: 8vw;
     font-size: 5.3333vw;
     color: #00FFFF;
     font-family: w3;
     border: 1px solid rgb(255,255,255,.3);
     text-align: center;
     position: initial;
-    margin: 2.667vw auto 8vw;
     line-height: 8.8vw;
-    background: linear-gradient(to left, rgba(255, 255, 255,0)0%,rgba(255, 255, 255, 0.2));
+    border-radius: 8vw;
 }
 
 .ptspan::after {
@@ -79,6 +84,13 @@
 }
 
 .ptpli {
+    background: linear-gradient(to left, rgba(255, 255, 255,0)0%,rgba(255, 255, 255, 0.2));
+    width: 78vw;
+    border-radius: 8vw;
+    margin: 0 auto 4vw;
+}
+
+.ptpbgcolor {
     width: 78vw;
     height: 10.9vw;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -88,19 +100,22 @@
     color: #ffffff;
     display: flex;
     line-height: 10.9vw;
-    background: linear-gradient(to left, rgba(255, 255, 255,0)0%,rgba(255, 255, 255, 0.2));
     margin: 0 auto 4vw;
-    /* border-left: 2px solid rgba(255, 255, 255, 0.3); */
+    overflow: hidden;
 }
 
 .circle {
-    width: 10.9333vw;
-    height: 10.9vw;
-    border-radius: 100%;
-    border-right: 2px solid rgba(255, 255, 255, 0.3);
+    width: 11.4vw;
+    height: 11.4vw;
+    border-radius: 10.9vw 10.9vw 10.9vw 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
+    box-sizing: border-box;
+    margin-top: -1px;
 }
 
 .ptplione {
