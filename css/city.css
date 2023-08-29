@@ -145,13 +145,19 @@ h2 {
 .pthreeli {
     -webkit-text-size-adjust: none;
     font-family: w1;
-    font-size: 3.73333vw;
+    font-size: 2.4vw;
     width: 18.3733vw;
     height: 10.0498vw;
     text-align: center;
     background-color: #ffffff;
     border-radius: 2vw;
-    line-height: 2.1333vw;
+    line-height: 2.7vw;
+}
+
+.pthreelia span {
+    padding-top: 2vw;
+    display: block;
+    color: #000000;
 }
 
 .aibg {
@@ -203,8 +209,8 @@ h2 {
     position: relative;
     top: -9.6vw;
 }
-/* 
-.citybanner{
+
+/* .citybanner{
     background-image: url(../img/citybanner.png);
 }
 
