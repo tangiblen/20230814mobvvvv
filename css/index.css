@@ -152,13 +152,13 @@
     color: #ffffff;
     margin: 0 auto 8vw;
     text-align: center;
-    line-height: 5.333vw;
+    line-height: 5.353vw;
     padding: 0.01333vw 2.9066vw;
 }
 
 .ptspansdiv {
-    width: 19.4vw;
-    height: 7.80683vw;
+    width: 19.4vw !important;
+    height: 7.80683vw !important;
 }
 
 .ptplogoimg {

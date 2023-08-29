@@ -145,7 +145,7 @@ h2 {
 .pthreeli {
     -webkit-text-size-adjust: none;
     font-family: w1;
-    font-size: 1.86667vw;
+    font-size: 3.73333vw;
     width: 18.3733vw;
     height: 10.0498vw;
     text-align: center;
@@ -185,10 +185,10 @@ h2 {
     background-image: url(../img/0816文旅项目/文旅1.jpg);
 }
 
-.citybanner,.buiniessbanner,.brandbanner,.aibanner,.travelbanner { 
+/* .citybanner,.buiniessbanner,.brandbanner,.aibanner,.travelbanner { 
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 
 .citywhite {
     display: block;
@@ -203,7 +203,7 @@ h2 {
     position: relative;
     top: -9.6vw;
 }
-
+/* 
 .citybanner{
     background-image: url(../img/citybanner.png);
 }
@@ -222,4 +222,4 @@ h2 {
 
 .travelbanner {
     background-image: url(../img/travelbanner.png);
-}
+} */

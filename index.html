@@ -7,6 +7,7 @@
     <title>首页</title>
     <link rel="stylesheet" href="./css/pulic.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
 </head>
 <body>
     <div class="content">
@@ -43,12 +44,23 @@
             </div>
             <div class="ptpart">
                 <span class="ptspans">过往服务的客户</span>
-                <div style="display: flex;    justify-content: space-evenly;width: 89vw;margin: auto;">
+                    <!-- Swiper -->
+                    <div class="swiper-container" style="width: 84vw;margin: auto;    overflow: hidden;">
+                        <div class="swiper-wrapper">
+                            <div class="ptspansdiv swiper-slide"><img src="./img/clogo1.png" alt="" class="ptplogoimg"></div>
+                            <div class="ptspansdiv swiper-slide"><img src="./img/clogo2.png" alt="" class="ptplogoimg"></div>
+                            <div class="ptspansdiv swiper-slide"><img src="./img/clogo3.png" alt="" class="ptplogoimg"></div>
+                            <div class="ptspansdiv swiper-slide"><img src="./img/clogo4.png" alt="" class="ptplogoimg"></div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                <!-- <div style="display: flex;    justify-content: space-evenly;width: 89vw;margin: auto;">
                     <div class="ptspansdiv"><img src="./img/clogo1.png" alt="" class="ptplogoimg"></div>
                     <div class="ptspansdiv"><img src="./img/clogo2.png" alt="" class="ptplogoimg"> </div>
                     <div class="ptspansdiv"><img src="./img/clogo3.png" alt="" class="ptplogoimg"> </div>
                     <div class="ptspansdiv"><img src="./img/clogo4.png" alt="" class="ptplogoimg"> </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -59,3 +71,22 @@
 </html>
 <script charset="UTF-8" src="./js/jquery-3.3.1.min.js"></script>
 <script src="./js/common.js"></script>
+<script src="./js/swiper-bundle.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 4,
+        paginationClickable: true,
+        spaceBetween: 8, //间距为8px
+            loop: true, //循环滚动
+            // speed: 2500, //滚动速度2500
+            freeMode: true,
+            autoplay: { //匀速滚动
+                delay: 10000, //间隔时间10秒
+                stopOnLastSlide: false,
+                disableOnInteraction: false, //触摸后仍然执行
+                reverseDirection: true,//反向滑动
+            }
+    });
+    </script>
