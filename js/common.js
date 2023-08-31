@@ -30,12 +30,20 @@ $("#footer").append(
 );
 
 
-  // 获取屏幕的高度
-  var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight; 
-  var navHeight = $('.mheadnav').height() 
-  $(".partone").css("height",windowHeight - navHeight)
-  console.log(windowHeight,111)
+// 获取屏幕的高度
+var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight; 
+var navHeight = $('.mheadnav').height() 
+$(".partone").css("height",windowHeight - navHeight)
 
+
+// 首页图片加载
+var num = 0;
+var arr = "clogo" + num;
+for(i=0;i<40;i++){
+  num++;
+  arr = "clogo" + num;
+  $(".swiper-wrapper").append(`<div class="ptspansdiv swiper-slide"><img src="./img/${arr}.png" alt="" class="ptplogoimg"></div>`)
+}
 
 // 服务内容底部跳转链接
 $(document).ready(function () {
@@ -62,9 +70,9 @@ $(document).ready(function () {
 // tab页高亮
   var urlhost = window.parent.document.referrer;
     sessionStorage.setItem("last_url",urlhost) //存储名字为last_url值为urlhost的变量
-    console.log(sessionStorage, 1111)
+    // console.log(sessionStorage, 1111)
     var currentURL = sessionStorage.getItem("last_url")
-    console.log(currentURL)
+    // console.log(currentURL)
     if (currentURL.indexOf('index.html') != -1){
       console.log(3132432)
       $(".tabli a").eq(0).addClass("bluecolor")
