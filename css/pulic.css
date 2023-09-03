@@ -39,6 +39,7 @@ a {
     position: sticky;
     top: 0;
     background: #03192D;
+    z-index: 1;
 
 }
 
